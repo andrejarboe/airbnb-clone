@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import LargeCard from '../components/LargeCard';
@@ -57,6 +58,10 @@ export default function Home({ exploreData, cardsData }) {
         {/* Large card end */}
       </main>
       {/* main end */}
+
+      {/* Footer */}
+      <Footer />
+      {/* Footer end */}
     </div>
   );
 }
