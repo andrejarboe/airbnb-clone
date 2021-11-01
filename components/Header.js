@@ -1,5 +1,6 @@
 //./components/Header.js
 import Image from 'next/image';
+import { SearchIcon } from "@heroicons/"
 
 function Header() {
     return (
@@ -16,7 +17,10 @@ function Header() {
             {/* left end */}
             {/* middle - search */}
             <div className="">
-                
+                <input type="text" placeholder="Start your search" />
+                <SearchIcon 
+                    className="h-8"
+                />
             </div>
             {/* middle end */}
             {/* right */}
